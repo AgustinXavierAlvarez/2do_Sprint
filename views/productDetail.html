@@ -7,31 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descripcion</title>
     <script src="https://kit.fontawesome.com/7a0a501500.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/style_form.css">
+    <link rel="stylesheet" href="/css/style_desc.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>        
+    <header class="header">
+        <div class="logo"> 
+            <img src="/image/Carpincho-Drinks-Logo.jpg"> 
+        </div>
+        <ul type="none" class="encabezado">
+            <li><p>Productos</p></li> 
+            <li>Nosotros</li>
+            <li>Contactenos</li>
+            <li class="lupita"> <i class="fa-solid fa-magnifying-glass"></i></li>
+            <li class= "changuito"> <i class="fa-solid fa-cart-shopping"></i> </li>
+        </ul>       
     </header>
     <main>
         <img src="https://i.pinimg.com/originals/df/be/27/dfbe27d26a5594681492f691cad7aa24.jpg" alt="Cerveza Corona">
-        <div>
+        <div id="descripcion">
             <h2>Cerveza corora Extra 355ml</h2>
-            <p>500$</p>
-            <div>
-                <ul>
-                    <li><i class="fa-solid fa-shop"></i></li>
-                    <li><i class="fa-solid fa-truck"></i></li>
+            <b>500$</b>
+            <div id="envio-retiro">
+                <ul type="none">
+                    <li><i class="fa-solid fa-shop"></i><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate debitis quos saepe ipsum beatae, commodi amet, quia accusamus fugiat tempora vel nemo modi natus ullam. At neque dicta ipsam provident.</p></li>
+                    <li><i class="fa-solid fa-truck"></i><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic qui, obcaecati deleniti officia ut quam adipisci voluptates tempora reprehenderit voluptatibus illum asperiores inventore veritatis, perferendis architecto unde ad itaque similique.</p></li>
                 </ul>
             </div>
-            <div>
+            <div id="opcion-bebida">
                 <label for="opcion-bebida">Opcion</label>
                 <select name="opcion-bebida" id="">
                     <option value="corona">Corona</option>
                 </select>
             </div>
+            <button id="envio-retiro">Comprar!</button>
         </div>
     </main>
     <footer>
